@@ -1,0 +1,19 @@
+{
+  "subscriptions": [
+    {
+      "server": "sg.arekmojokerto.my.id",
+      "port": 80,
+      "protocol": "vmess",
+      "uuid": "096cee19-daeb-4c06-884e-529e6f46c381",
+      "alterId": 64,
+      "cipher": "auto",
+      "tls": false, // true,
+      "ws": {
+        "path": "/servlets/mms/vmess",
+        "headers": {
+          "Host": "mmc.xl.net.id"
+        }
+      }
+    }
+  ]
+}
