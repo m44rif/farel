@@ -4,7 +4,7 @@
       "server": "sg.arekmojokerto.my.id",
       "port": 80,
       "protocol": "vmess",
-      "uuid": "096cee19-daeb-4c06-884e-529e6f46c381",
+      "uuid": "6d635d1a-408a-4297-b824-116ca00bd339",
       "alterId": 64,
       "cipher": "auto",
       "tls": false, // true,
