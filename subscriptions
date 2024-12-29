@@ -109,66 +109,66 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg.arekmojokerto.my.id", // a
+            "address": "vmess-sg01.globalssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "096cee19-daeb-4c06-884e-529e6f46c381",
+                "id": "36866efb-2ff9-4e07-9416-099f819d333f", // a
                 "level": 8,
                 "security": "auto"
               }
             ]
           },
           {
-            "address": "sg.arekmojokerto.my.id", // b
+            "address": "vmess-sg01.globalssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "901dc3f7-5621-4225-a6b7-5ffd595f3dfd",
+                "id": "51f4eece-4913-4a3f-b8d3-df2643ee59eb", // b
                 "level": 8,
                 "security": "auto"
               }
             ]
           },
           {
-            "address": "sg.arekmojokerto.my.id", // c
+            "address": "vmess-sg01.globalssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "5d708bd2-6781-4ceb-a511-b2a286a88418",
+                "id": "53da68ba-7bc9-4ee9-900a-2f6c8fbe9b9e", // c
                 "level": 8,
                 "security": "auto"
               }
             ]
           },
           {
-            "address": "sg.arekmojokerto.my.id", // d
+            "address": "vmess-sg01.globalssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "2a0a6da6-7082-4540-9d14-1f6ea3ecf9d0",
+                "id": "245a682a-f5d0-456a-9a1e-fe18935f5648", // d
                 "level": 8,
                 "security": "auto"
               }
             ]
           },
           {
-            "address": "sg.arekmojokerto.my.id", // e
+            "address": "vmess-sg01.globalssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "3f0326e8-e559-4e26-b877-51f17a142a0d",
+                "id": "ab27cad9-f9f7-499f-b302-246759fad1fa", // e
                 "level": 8,
                 "security": "auto"
               }
             ]
           },
           {
-            "address": "sg.arekmojokerto.my.id", // "vmess-sg01.globalssh.xyz", // f
+            "address": "vmess-sg01.globalssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "e7fa3f53-bf56-4ca2-a13f-ade786d55d3e",
+                "id": "d77888b3-ee73-428d-90a5-cd31314d87e7", // f
                 "level": 8,
                 "security": "auto"
               }
@@ -215,9 +215,9 @@
       "tag": "block"
     }
   ],
-  "remarks": "sub - vmess ws ntls",
+  "remarks": "abcdef - vmess ws ntls",
   "routing": {
-    "domainStrategy": "AsIs", // IPIfNonMatch
+    "domainStrategy": "AsIs",
     "rules": [
       {
         "domain": [
@@ -235,7 +235,7 @@
           "whatsapp.com"
         ],
         "type": "field",
-        "outboundTag": "proxy" // direct
+        "outboundTag": "proxy"
       },
       
       {  
@@ -264,9 +264,9 @@
       },
       {
         "domain": [
-          "geosite:category-ads-all" // ads adalah iklan, silahkan block jika diperlukan.
+          "geosite:category-ads-all"
         ],
-        "outboundTag": "proxy", // block
+        "outboundTag": "proxy",
         "type": "field"
       },
       {
