@@ -109,6 +109,18 @@
       "settings": {
         "vnext": [
           {
+            "address": "tobrut.janda-baper.com",
+            "port": 80,
+            "users": [
+              {
+                "id": "25db0035-3f7e-4e39-b97e-e1371eafdb2e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          },
+          
+          {
             "address": "vmess-sg01.globalssh.xyz",
             "port": 80,
             "users": [
@@ -135,7 +147,7 @@
             "port": 80,
             "users": [
               {
-                "id": "53da68ba-7bc9-4ee9-900a-2f6c8fbe9b9e", // c
+                "id": "53c42d5f-ba2b-484f-aace-1d6a8493de8d", // c
                 "level": 8,
                 "security": "auto"
               }
@@ -146,7 +158,7 @@
             "port": 80,
             "users": [
               {
-                "id": "245a682a-f5d0-456a-9a1e-fe18935f5648", // d
+                "id": "ef550ca0-9992-40a6-8a6c-cd3bf9cd074b", // d
                 "level": 8,
                 "security": "auto"
               }
@@ -168,18 +180,7 @@
             "port": 80,
             "users": [
               {
-                "id": "d77888b3-ee73-428d-90a5-cd31314d87e7", // f
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          },
-          {
-            "address": "tobrut.janda-baper.com",
-            "port": 80,
-            "users": [
-              {
-                "id": "25db0035-3f7e-4e39-b97e-e1371eafdb2e",
+                "id": "6142bd67-4e86-4cc3-b1a4-37f05a067a87", // f
                 "level": 8,
                 "security": "auto"
               }
@@ -215,7 +216,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "abcdef - vmess ws ntls",
+  "remarks": "subscription - vmess ws ntls",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
@@ -277,4 +278,3 @@
     ]
   }
 }
-
