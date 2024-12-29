@@ -215,7 +215,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "sub-config - vmess ws ntls",
+  "remarks": "sub - vmess ws ntls",
   "routing": {
     "domainStrategy": "AsIs", // IPIfNonMatch
     "rules": [
