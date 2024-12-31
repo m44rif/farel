@@ -109,7 +109,18 @@
       "settings": {
         "vnext": [
           {
-            "address": "kpk.vpnshare.xyz",
+            "address": "id.internetpositif.my.id",
+            "port": 80,
+            "users": [
+              {
+                "id": "b42acd36-3b48-46ad-a9f3-e4cfb75290cf",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          },
+          {
+            "address": "103.185.52.73", // "kpk.vpnshare.xyz",
             "port": 80,
             "users": [
               {
@@ -120,7 +131,7 @@
             ]
           },
           {
-            "address": "tobrut.janda-baper.com",
+            "address": "167.99.70.224", // "tobrut.janda-baper.com",
             "port": 80,
             "users": [
               {
@@ -160,7 +171,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "subscription - vmess ws ntls",
+  "remarks": "multi vmess ntls",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
@@ -222,4 +233,3 @@
     ]
   }
 }
-
