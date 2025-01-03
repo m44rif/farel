@@ -120,17 +120,6 @@
             ]
           },
           {
-            "address": "103.185.52.73", // "kpk.vpnshare.xyz",
-            "port": 80,
-            "users": [
-              {
-                "id": "27e79aa1-988d-4f40-9848-ddee5f9383e2",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          },
-          {
             "address": "167.99.70.224", // "tobrut.janda-baper.com",
             "port": 80,
             "users": [
