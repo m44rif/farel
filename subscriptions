@@ -109,6 +109,17 @@
       "settings": {
         "vnext": [
           {
+            "address": "aws.hambaalloh.my.id",
+            "port": 80,
+            "users": [
+              {
+                "id": "62999ebe-980f-4149-8998-87bd4ba0b6c8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          },
+          {
             "address": "id.internetpositif.my.id",
             "port": 80,
             "users": [
